@@ -31,6 +31,22 @@ Designed with an App-like navigation structure (Home -> Ops -> Finance) and Dark
 
 ![Landing Page Interface](output/00_landing_page_ui.png)
 
+---
+
+## 🔎 Detailed Analysis Views
+
+### 1. Operations View: The Cost of Friction
+* **Focus:** Identifying bottlenecks in service delivery.
+* **Key Metric:** Correlating `Avg Wait Time` (17.0 mins) with `Cancellation Rate` (11.9%) to pinpoint "Friction Zones."
+![Operations View](output/friction_analysis.png)
+
+### 2. Finance View: Revenue Leakage
+* **Focus:** Quantifying the Opportunity Cost of operational failures.
+* **Key Metric:** `Revenue Loss` (₹251.9K) tracked against `Total Revenue` to prioritize fleet allocation fixes.
+![Finance View](output/revenue_loss.png)
+
+---
+
 ## 📂 Project Structure
 * `solution_architecture/`: Contains the production-ready `.pbix` file.
 * `docs/`: Detailed project presentation and PDF summaries.
